@@ -22,8 +22,14 @@ git commit -> registers staging changes to a commit. (Press "i" to enter the com
 git log -> Lists down all the commit history of the Repository. (To exit out of it press "q").
 In windows we don't need to press any such thing.
 
-Now I will try to make my second commit.
+git restore -> It remove all file changes from the staging area to be committed. This can be useful if we do some dirty piece of code and do not want it anymore. Instead of deleting every changes line by line we can restore the last version.
 
+
+
+
+//* Scenario :- We have a file already committed. In that file whatever changes we make, that changes are basically done in the WORKING AREA. In the working area if we do "git restore <file>" then all the changes we make from the working area vanishes.
+But, If we want those changes to move from working area to STAGING AREA, we need "git add <file>", this will move the file from the WORKING AREA to the STAGING AREA. And from the STAGING AREA, we can do "git commit".
+If we want those changes again to be moved from the STAGING AREA to the WORKING AREA we can do "git restore --staged <file>".
 
 
 
