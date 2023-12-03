@@ -17,9 +17,14 @@ git add <file> -> This moves files from working area to the Staging area.
 
 git rm --cached <file> -> This removes file from the Staging area to the working area.
 
-git commit -> registers staging changes to a commit. (Then press esc+:+wq+enter)
+git commit -> registers staging changes to a commit. (Press "i" to enter the commit message and then press esc+:+wq+enter)
 
 git log -> Lists down all the commit history of the Repository. (To exit out of it press "q").
+In windows we don't need to press any such thing.
+
+Now I will try to make my second commit.
+
+
 
 
 
