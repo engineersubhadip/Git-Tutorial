@@ -30,6 +30,8 @@ git restore -> It remove all file changes from the staging area to be committed.
 //* Scenario :- We have a file already committed. In that file whatever changes we make, that changes are basically done in the WORKING AREA. In the working area if we do "git restore <file>" then all the changes we make from the working area vanishes.
 But, If we want those changes to move from working area to STAGING AREA, we need "git add <file>", this will move the file from the WORKING AREA to the STAGING AREA. And from the STAGING AREA, we can do "git commit".
 If we want those changes again to be moved from the STAGING AREA to the WORKING AREA we can do "git restore --staged <file>".
+Therefore only those changes become part of the commit which are in the STAGING AREA.
+
 
 
 
