@@ -22,7 +22,7 @@ git commit -> registers staging changes to a commit. (Press "i" to enter the com
 git log -> Lists down all the commit history of the Repository. (To exit out of it press "q").
 In windows we don't need to press any such thing.
 
-git restore <file>-> It remove all file changes from the staging area to be committed. This can be useful if we do some dirty piece of code and do not want it anymore. Instead of deleting every changes line by line we can restore the last version.
+git restore <file>-> It removes all file changes from the working area
 
 
 
