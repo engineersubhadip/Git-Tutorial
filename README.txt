@@ -24,7 +24,7 @@ In windows we don't need to press any such thing.
 
 git restore <file>-> It removes all file changes from the working area
 
-
+git commit -m "Commit Message to be written" -> Shortcut to write Git Commit Message.
 
 
 //* Scenario :- We have a file already committed. In that file whatever changes we make, that changes are basically done in the WORKING AREA. In the working area if we do "git restore <file>" then all the changes we make from the working area vanishes.
