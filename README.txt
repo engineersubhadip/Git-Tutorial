@@ -38,7 +38,7 @@ How to check the Difference between two commit -> Get the first commitID and the
 "git diff commitID1 commitID2"
 
 
-
+All the Changes that we are making right now are in our local repository (in our computer). If we want to connect our local repository to the GitHub Repository we need (git remote add origin https://github.com/gautoma/Git-Tutorial.git).
 
 
 
