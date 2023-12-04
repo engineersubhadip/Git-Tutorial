@@ -32,6 +32,8 @@ But, If we want those changes to move from working area to STAGING AREA, we need
 If we want those changes again to be moved from the STAGING AREA to the WORKING AREA we can do "git restore --staged <file>".
 Therefore only those changes become part of the commit which are in the STAGING AREA.
 
+Difference between "git rm" and "git restore" -> If we want to move the whole file back to the working stage, we do "git rm". Otherwise if we just want the changes to be shifted to the working or staging area we do "git restore".
+
 
 
 
