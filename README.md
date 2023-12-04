@@ -36,6 +36,8 @@ git add <file1> <file2> ... -> This command will add multiple file changes in th
 
 git add . -> If we do not want to add all the file names manually.
 
+git pull origin master -> If we want to pull the updated file changes from the GitHub Repo to your local machine
+
 
 //* Scenario :- We have a file already committed. In that file whatever changes we make, that changes are basically done in the WORKING AREA. In the working area if we do "git restore <file>" then all the changes we make from the working area vanishes.
 But, If we want those changes to move from working area to STAGING AREA, we need "git add <file>", this will move the file from the WORKING AREA to the STAGING AREA. And from the STAGING AREA, we can do "git commit".
