@@ -15,7 +15,7 @@
 
 git add <file> -> This moves files from working area to the Staging area.
 
-git rm --cached <file> -> This removes file from the Staging area to the working area.
+git restore --staged <file> -> This moves the changes from the Staging Area to the Working Area.
 
 git commit -> registers staging changes to a commit. (Press "i" to enter the commit message and then press esc+:+wq+enter)
 
@@ -36,6 +36,8 @@ Difference between "git rm" and "git restore" -> If we want to move the whole fi
 
 How to check the Difference between two commit -> Get the first commitID and the second commitID. Then do,
 "git diff commitID1 commitID2"
+
+
 
 
 
