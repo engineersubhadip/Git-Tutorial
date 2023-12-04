@@ -59,3 +59,5 @@ How to check the Difference between two commit -> Get the first commitID and the
 
 All the Changes that we are making right now are in our local repository (in our computer). If we want to connect our local repository to the GitHub Repository we need (git remote add origin https://github.com/gautoma/Git-Tutorial.git).
 
+
+Merge Conflicts occur :-> When 2 or more people are tying to make changes at the same part of the code.
