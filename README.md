@@ -61,3 +61,4 @@ All the Changes that we are making right now are in our local repository (in our
 
 
 Merge Conflicts occur :-> When 2 or more people are tying to make changes at the same part of the code.
+Merge Conflicts are very common Scenario
