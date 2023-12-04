@@ -22,7 +22,7 @@ git commit -> registers staging changes to a commit. (Press "i" to enter the com
 git log -> Lists down all the commit history of the Repository. (To exit out of it press "q").
 In windows we don't need to press any such thing.
 
-git restore -> It remove all file changes from the staging area to be committed. This can be useful if we do some dirty piece of code and do not want it anymore. Instead of deleting every changes line by line we can restore the last version.
+git restore <file>-> It remove all file changes from the staging area to be committed. This can be useful if we do some dirty piece of code and do not want it anymore. Instead of deleting every changes line by line we can restore the last version.
 
 
 
@@ -33,6 +33,11 @@ If we want those changes again to be moved from the STAGING AREA to the WORKING 
 Therefore only those changes become part of the commit which are in the STAGING AREA.
 
 Difference between "git rm" and "git restore" -> If we want to move the whole file back to the working stage, we do "git rm". Otherwise if we just want the changes to be shifted to the working or staging area we do "git restore".
+
+How to check the Difference between two commit -> Get the first commitID and the second commitID. Then do,
+"git diff commitID1 commitID2"
+
+
 
 
 
