@@ -36,7 +36,7 @@ git add <file1> <file2> ... -> This command will add multiple file changes in th
 
 git add . -> If we do not want to add all the file names manually.
 
-git pull origin master -> If we want to pull the updated file changes from the GitHub Repo to your local machine
+git pull origin master -> If we want to download the updated file changes from the GitHub Repo Branch to your local machine
 
 
 //* Scenario :- We have a file already committed. In that file whatever changes we make, that changes are basically done in the WORKING AREA. In the working area if we do "git restore <file>" then all the changes we make from the working area vanishes.
