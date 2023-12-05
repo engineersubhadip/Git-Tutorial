@@ -73,3 +73,5 @@ Stashing -> If we have some piece of code which we do not want it to be a part o
 git stash show stash@{stashNumber} -> To see how many changes are there in the current stash
 
 How to store changes for the untracked file -> git stash --include-untracked
+
+Or we can move the file changes to the Staging Area and from there move the Stash.
