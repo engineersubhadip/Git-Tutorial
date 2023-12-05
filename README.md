@@ -71,3 +71,5 @@ Stashing -> If we have some piece of code which we do not want it to be a part o
 4. If we want the file from the Stash back to the Staging Area we can do "git stash apply".
 
 git stash show stash@{stashNumber} -> To see how many changes are there in the current stash
+
+How to store changes for the untracked file -> git stash --include-untracked
