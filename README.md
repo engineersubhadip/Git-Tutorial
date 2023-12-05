@@ -73,7 +73,3 @@ Stashing -> If we have some piece of code which we do not want it to be a part o
 git stash show stash@{stashNumber} -> To see how many changes are there in the current stash
 
 How to store changes for the untracked file -> git stash --include-untracked
-OR, we can push the file in the Staging Area and from there do 'git stash'.
-
-
-Scenario :- If we have a bunch of git stash and we want to clear them. We can do 'git stash pop'. This will remove the entry from the stash list and put that stash in the staging area.
