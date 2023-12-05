@@ -62,3 +62,10 @@ All the Changes that we are making right now are in our local repository (in our
 
 Merge Conflicts occur :-> When 2 or more people are tying to make changes at the same part of the code.
 Merge Conflicts are very common Scenario
+
+Stashing -> If we have some piece of code which we do not want it to be a part of the next commit, we can use stashing.
+-: Procedure :-
+1. Whatever file we have push it into the Staging Area.
+2. From there do "git stash". This will move the file from the Staging Area to the Stash.
+3. If we want to see all the list of the stash file we can do "git stash list".
+4. If we want the file from the Stash back to the Staging Area we can do "git stash apply".
