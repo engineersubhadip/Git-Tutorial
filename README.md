@@ -69,3 +69,5 @@ Stashing -> If we have some piece of code which we do not want it to be a part o
 2. From there do "git stash". This will move the file from the Staging Area to the Stash.
 3. If we want to see all the list of the stash file we can do "git stash list".
 4. If we want the file from the Stash back to the Staging Area we can do "git stash apply".
+
+git stash show stash@{stashNumber} -> To see how many changes are there in the current stash
